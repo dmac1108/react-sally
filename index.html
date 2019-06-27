@@ -31,9 +31,8 @@
     const aboutMe =
             <div>
             <header>
-                    <img src="https://cdn.dribbble.com/users/2342727/screenshots/4694948/robot.jpg" alt="Sally's Profile Image"></img>
-                <h1>Sally Student</h1>
-
+                
+              <h1>Sally Student</h1>
             </header>
             <section>
                     <p><b>Objective:</b> To obtain employment with a company that offers a positive atmosphere to learn and implement new skills and technologies for the betterment of the organization.</p>
@@ -42,9 +41,12 @@
 
 
     const employment =
-    <section>
-    <h2>Employment History</h2>
+    <section >
     <div>
+    <h2>Employment History</h2>
+    </div>
+    <div class="job">
+    <div >
       <h3>IBM Corporation</h3>
       <p>Programmer Analyst<br/>
       January 2002 - Present</p>
@@ -57,24 +59,32 @@
       March 1999 - June 2001</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
+    </div>
    </section>;
 
     const contactInfo = 
-    <section>
-            <h2>Contact Information</h2>
+    <section >
+     <div> <h2>Contact Information</h2></div>
+    
+    <div class="contact">
+      <img src="https://cdn.dribbble.com/users/2342727/screenshots/4694948/robot.jpg" alt="Sally's Profile Image"></img>
+        
+            
     <address>
     <p>Sally Student</p>  
     <a href="mailto:sally.student@school.edu">sally.student@school.edu</a>
     <br/>
     <a href="tel:+123-444-5555"> 123-444-5555</a>
     </address>
-   
+  </div>   
     </section>;
 
     const education = <section>
+    <div>
     <h2>Education</h2>
     <p>2001 - B.S. Computer Science, Mississippi State</p>
     <p>1997 - Jefferson High School 1997</p>
+    </div>
    </section>;
 
     ReactDOM.render(<Resume/>, document.querySelector('#application-root'));
