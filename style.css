@@ -1,0 +1,29 @@
+body{
+    font-family: fantasy;
+    font-size: 20px;
+    color: peru;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+img{
+    width: 200px;
+}
